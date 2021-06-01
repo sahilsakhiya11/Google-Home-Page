@@ -1,0 +1,139 @@
+html, body {
+    height: 100%;
+  }
+body{
+    margin: 0;
+    display: flex;
+  flex-direction: column;
+}
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    
+    margin-top: 20px;
+}
+#nav a{
+    margin-right: 20px;
+}
+
+#nav a.topImage{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
+.image-main{
+    display: flex;
+    min-width: 100vw;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.image{
+    width: 400px;
+    height: 200px;
+}
+
+.searchbar{
+   text-align: center;
+    margin-top: 35px;
+    outline: 0;
+    position: relative;
+}
+.text{
+    width: 500px;
+    height: 35px;
+    border: 1px solid #8d8d8d;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 1px lightgrey;
+    padding-left: 10px;
+    outline: 0;
+}
+.search-icon, .voice-icon{
+    position: absolute;
+    display: flex;
+    height: 100%;
+    top: 0px;
+    left: 440px;
+    align-items: center;
+    justify-content: center;
+}
+.voice-icon{
+    position: relative;
+    display: inline-block;
+    left: -40px;
+}
+.text:hover{
+    box-shadow: 0 0 10px 2px #c4c4c4;
+}
+.text:active{
+    border: none;
+}
+input[type="text"]::placeholder {  
+    padding-left: 40px; 
+}
+.buttons{
+    text-align: center;
+    padding: 20px 0;
+}
+#button{
+    margin: 0px 5px;
+    cursor: pointer;
+    padding: 10px;    
+    border-radius: 5px;
+    border: 1px solid #8d8d8d;
+    color: black;
+    font-weight: 500;
+}
+#button:active{
+    border: 1px solid black;
+}
+#button:hover{
+    border: 1px solid black;
+}
+#links{
+    text-align: center; 
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.contents{
+    flex: 1 0 auto;
+}
+.footer{
+    flex-shrink: 0;
+    background-color:#f9f9f9;
+}
+#content{
+    border: 1px solid #8d8d8d;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+#content a{
+   font-size: 15px;
+   color: #424141;
+}
+.down{
+    border: 1px solid #8d8d8d;
+    border-top: none;  
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.down a{
+    font-size: 15px;
+    color: #424141; 
+}
+.right{
+    display: inline-block;
+    margin-left: 870px;
+}
